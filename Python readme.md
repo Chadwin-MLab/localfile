@@ -96,3 +96,70 @@ Temperature = 38.4
 
 -Tracking a user or a specific calculation based on what the user is busy with
 -Use the input() function to interact with users, to get data or a result.
+
+
+
+*School Math in Python*
+
+- *Operators in python*
+-Arithmetic Operators
+-Relational Operators
+-Logical Operators
+-Membership and identity Operator
+-Bitwise Operators
+-Walrus Operator
+
+
+
+- Arithmetic Operators
+-A math function that takes two operands and performs a calculation on them
+-+ Addition
+-(-) Subtraction
+-*Multiplication
+-/ Division of the left by right
+-% Modulus divides left by right and returns the remainder
+-** Exponent
+
+
+- Comparison
+-Are used for comparing value and either returns a true or false according to the condition
+-> greater than
+-< less than
+-== equal to
+-!= Not equal to
+->= greater than or equal to
+-<= less than or equal to
+
+
+- Logical operators
+-Is a symbol or word used to connect two or more expressions
+-and : returns true is if both operands are true
+-or : returns true if either of the operands are true
+-not : returns true if the operand is false
+
+
+
+- Membership and identity operators
+
+-Membership operators
+-in returns true if the value is found in the sequence
+-not in returns true if the value is not found in the sequence
+
+-Identity operators
+-A variable name given to a memory location where a value is stored
+-is returns True if the operands are identical
+-not is returns True if the operands are not identical
+
+
+- Walrus operator
+-Used to assign variables within an expression using the notation
+-:=
+-Combines the steps of declaration
+-for example 
+
+name = "Sam"
+print(name)
+
+is the same as
+
+print(name:=Sam)
