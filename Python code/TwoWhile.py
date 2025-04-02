@@ -8,11 +8,11 @@ while True:
             print("Your mini bus is full")
             break
         elif people <= 5 :
-            print("you have not reached capacity yet")
+            print("Your minibus is empty")
             
             people += 1
         else:
-            print("Your minibus is empty")
+            print("Your minibus is not at capacity yet")
 
             people += 1
     
